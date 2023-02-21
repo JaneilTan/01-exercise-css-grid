@@ -1,0 +1,34 @@
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Default styles for primary navigation and articles */
+.primary-nav-list,
+.primary-nav-item,
+.articles-list,
+.articles-item {
+  list-style-type: none; /* remove bullet points from list */
+  margin: 0; /* remove default margin from the browser */
+  padding: 0; /* remove default padding from the browser */
+}
+
+.primary-nav-link {
+  display: block; /* make the link go full width on mobile */
+  padding: 1rem;
+  background: #eee;
+}
+
+.primary-nav-link:focus, /* providing focus styles for keyboard navigation */
+.primary-nav-link:hover {
+  background: #ccc;
+}
+
+@media (min-width: 40rem) {
+  /* Write your CSS in here */
+}
