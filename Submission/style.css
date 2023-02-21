@@ -48,4 +48,9 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
   }
+  .primary-nav-list {
+    display: grid;
+    grid-template-columns: min-content min-content min-content;
+  }
+
 }
