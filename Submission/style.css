@@ -28,12 +28,20 @@ img {
 .primary-nav-link:hover {
   background: #ccc;
 }
-
+/* Write your CSS in here */
 @media (min-width: 40rem) {
   .article {
     display: grid;
     grid-template-columns: 70% 30%;
     grid-gap: 2rem;
   }
-  /* Write your CSS in here */
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .copyright {
+    text-align: right;
+  }
+  
 }
