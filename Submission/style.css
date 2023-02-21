@@ -51,6 +51,17 @@ img {
   .primary-nav-list {
     display: grid;
     grid-template-columns: min-content min-content min-content;
+    
   }
-
+  .header {
+    display: grid;
+    grid-template-columns: 10rem auto;
+  }
+  .logo {
+    justify-self: center;
+    align-self: center;
+  }
+  .primary-nav {
+    justify-self: end;
+  }
 }
