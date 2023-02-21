@@ -43,5 +43,9 @@ img {
   .copyright {
     text-align: right;
   }
-  
+  .articles-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
 }
